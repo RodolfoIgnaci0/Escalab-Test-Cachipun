@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(87, 85, 85, 0.1);
+    font-family: 'Stardos Stencil', cursive;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.login > .form{
+    width: 20%;
+}
+.login > div > img{
+    border-radius: 50px 15px ;
+    box-shadow: 2px 2px 5px black;
+    margin-right: 50px;
+}
+
+.login > .form > input {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+
+.login > .form > .btn-info{
+    background-color:rgb(98, 192, 230);
+    color: white;
+    border-radius: 15px;
+    padding: 15px 20px;
+    
+
+}
+
+.login > .form > .btn-info:hover{
+    background-color: royalblue;
+    color: white;
+    transition-duration: 2s;
+}
+
+.game-option{
+    cursor: pointer;
+}
+
+
+.table{
+    border: 2px solid rgb(100, 4, 4);
+    display: flex; 
+    box-shadow: 2px 2px 2px rgb(54, 2, 2);
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.table > div{
+    flex: 4;
+    padding: 25px 10px;
+    border: 1px solid black;
+}
+
+.table > .table-instr{
+    flex: 6;
+}
+
+.table > div > ul > li{
+    list-style: none;
+}
+
+.aimg > img{
+    width: 130%;
+}
+
+
+
+.center{
+    text-align: center;
+}
+
+.options{
+    display: flex;
+    justify-content:space-around;
+    margin: 50px;
+}
+
+.round{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.hide{
+    display: none;
+}
+
+.warning{
+    color: red;
+}
